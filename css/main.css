@@ -52,7 +52,7 @@ p {
 }
 
 .might {
-    background: #000;
+    background: #333;
     color: #FFF;
     padding: 92px 0 0 0;
 }
@@ -69,17 +69,28 @@ p {
     margin-top: 65px;
 }
 
+.firstSite{
+    width: 187px;
+    height: 183px;
+    border-radius: 19px;
+}
+
 .item {
     width: 187px;
     height: 183px;
     background: #FFF;
     border-radius: 20px;
+   
+}
 
+.item:hover {
+    box-shadow: 0px 0px 20px -5px #FFF;
+    transition: all 0.2s ease;
 }
 
 .footer {
     color: #FFF;
-    background: #000;
+    background: #333;
     font-size: 13px;
 }
 
